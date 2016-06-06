@@ -66,13 +66,13 @@ protected void doGet(HttpServletRequest request,
 
 --------------------------------------------------------------------------------
 
-### Spring MVC
+## Spring MVC
 
-#### Structuur
+### Structuur
 
-#### Hello Application
+### Hello Application
 
-#### web/WEB-INF/jsp/helloView.jsp
+### web/WEB-INF/jsp/helloView.jsp
 
 ```xml
 <html>
@@ -86,7 +86,7 @@ protected void doGet(HttpServletRequest request,
 </html>
 ```
 
-#### web/WEB-INF/jsp/nameForm.jsp
+### web/WEB-INF/jsp/nameForm.jsp
 
 ```xml
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -107,7 +107,7 @@ protected void doGet(HttpServletRequest request,
 </html>
 ```
 
-#### web/WEB-INF/web.xml
+### web/WEB-INF/web.xml
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -139,7 +139,7 @@ protected void doGet(HttpServletRequest request,
 </web-app>
 ```
 
-#### web/WEB-INF/applicationContext.xml
+### web/WEB-INF/applicationContext.xml
 
 ```xml
 <?xml version='1.0' encoding='UTF-8' ?>
@@ -158,7 +158,7 @@ protected void doGet(HttpServletRequest request,
 </beans>
 ```
 
-#### java/domain/HelloService.java
+### java/domain/HelloService.java
 
 ```java
 public interface HelloService {
@@ -166,7 +166,7 @@ public interface HelloService {
 }
 ```
 
-#### java/domain/HelloServiceImpl.java
+### java/domain/HelloServiceImpl.java
 
 ```java
 public class HelloServiceImpl implements HelloService{
@@ -177,7 +177,7 @@ public class HelloServiceImpl implements HelloService{
 }
 ```
 
-#### java/controller/HelloController.java
+### java/controller/HelloController.java
 
 ```java
 @Controller
@@ -199,7 +199,7 @@ public class HelloController {
 }
 ```
 
-#### test/controller/HelloControllerMockTest
+### test/controller/HelloControllerMockTest
 
 ```java
 public class HelloControllerMockTest {
@@ -230,7 +230,7 @@ public class HelloControllerMockTest {
 }
 ```
 
-#### test/controller/HelloControllerTest.java
+### test/controller/HelloControllerTest.java
 
 ```java
 @RunWith(SpringJUnit4ClassRunner.class)
