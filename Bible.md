@@ -1,12 +1,10 @@
 # Web Applicaties IV - Samenvatting
 
---------------------------------------------------------------------------------
+## Servlets
 
-# Servlets
+### Servlets First Example
 
-## Servlets First Example
-
-### Servlets/HelloServlet.java
+#### Servlets/HelloServlet.java
 
 ```java
 @Override // Example get method
@@ -22,7 +20,7 @@ protected void doPost(HttpServletRequest request, HttpServletResponse response)
       }
 ```
 
-### web/welcomeForm.html
+#### web/welcomeForm.html
 
 ```html
 <!-- Form to post / get -->
@@ -33,9 +31,9 @@ protected void doPost(HttpServletRequest request, HttpServletResponse response)
 </form>
 ```
 
-## Redirect Servlet
+### Redirect Servlet
 
-### web/redirectForm.html
+#### web/redirectForm.html
 
 ```html
 <p>
@@ -46,7 +44,7 @@ protected void doPost(HttpServletRequest request, HttpServletResponse response)
 </p>
 ```
 
-### Servlet/RedirectServlet.java
+#### Servlet/RedirectServlet.java
 
 ```java
 @Override
@@ -68,11 +66,13 @@ protected void doGet(HttpServletRequest request,
 
 --------------------------------------------------------------------------------
 
-# Spring MVC
+### Spring MVC
 
-## Hello Application
+#### Structuur
 
-### web/WEB-INF/jsp/helloView.jsp
+#### Hello Application
+
+#### web/WEB-INF/jsp/helloView.jsp
 
 ```xml
 <html>
@@ -86,7 +86,7 @@ protected void doGet(HttpServletRequest request,
 </html>
 ```
 
-### web/WEB-INF/jsp/nameForm.jsp
+#### web/WEB-INF/jsp/nameForm.jsp
 
 ```xml
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
